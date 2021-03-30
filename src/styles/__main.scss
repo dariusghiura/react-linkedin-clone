@@ -1,0 +1,19 @@
+@import "./_variables";
+
+.main-wrapper {
+  background-color: $mainBackgroundColor;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+  min-height: 100px;
+  max-width: 1128px;
+}

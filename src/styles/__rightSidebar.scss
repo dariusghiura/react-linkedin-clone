@@ -1,0 +1,41 @@
+.right-sidebar-wrapper {
+  max-width: 315px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-sidebar-course-wrapper {
+  background-color: $secondaryBackgroundColor;
+  border-radius: 10px;
+  padding: 8px 0px 12px;
+  border: 1px solid $borderColor;
+  h1 {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    font-size: $largeFontSize;
+    padding: 0px 12px 4px;
+  }
+}
+
+.right-sidebar-course {
+  padding: 4px 32px 4px 12px;
+  h2 {
+    width: 271px;
+    font-size: $mediumFontSize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  h4 {
+    width: 255px;
+    color: $mainColor;
+    font-size: $smallFontSize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px 0px 0px 16px;
+  }
+}

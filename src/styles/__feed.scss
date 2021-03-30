@@ -1,0 +1,127 @@
+@import "./_variables";
+
+.feed-section-wrapper {
+  max-width: 540px;
+  width: 100%;
+}
+
+.feed-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 108px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: $secondaryBackgroundColor;
+  border-radius: 10px;
+  border: 1px solid $borderColor;
+}
+
+.feed-input-top {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  img {
+    object-fit: cover;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+  }
+  input {
+    padding-left: 10px;
+    border-radius: 30px;
+    width: 450px;
+    border: 1px solid $borderColor;
+  }
+}
+
+.feed-input-option {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feed-input-option-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 48px;
+  padding: 0px, 8px;
+  border-radius: 10px;
+}
+
+.feed-input-option-wrapper > h3 {
+  padding-left: 5px;
+  font-size: $mediumFontSize;
+  color: $mainColor;
+}
+
+.feed-input-option-wrapper:hover {
+  background-color: $hoverBackgroundColor;
+}
+
+.feed-post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $secondaryBackgroundColor;
+  border-radius: 10px;
+  border: 1px solid $borderColor;
+  margin-bottom: 5px;
+}
+.feed-post-profile {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 12px 16px 0px;
+  margin: 0px 0px 8px;
+  cursor: pointer;
+}
+
+.feed-post-profile > img {
+  object-fit: cover;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.feed-post-profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    font-size: $mediumFontSize;
+  }
+  h4 {
+    font-size: $smallFontSize;
+    color: $mainColor;
+  }
+}
+
+.feed-post-content {
+  padding: 0px 16px;
+  font-size: $mediumFontSize;
+}
+
+.feed-post-option-wrapper {
+  display: flex;
+  padding: 4px 8px;
+}
+
+.feed-post-option {
+  display: flex;
+  height: 28px;
+  padding: 10px 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  h3 {
+    margin-left: 5px;
+    font-size: $mediumFontSize;
+    color: $mainColor;
+  }
+}
+.feed-post-option:hover {
+  background-color: $hoverColor;
+}

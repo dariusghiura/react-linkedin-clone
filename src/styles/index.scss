@@ -1,0 +1,15 @@
+@import "./_main";
+@import "./_leftSidebar";
+@import "./_feed";
+@import "./_rightSidebar";
+@import "./_header";
+@import "./_footer";
+
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/fonts/roboto/Roboto-Regular.ttf");
+}
+* {
+  font-family: Roboto;
+  margin: 0;
+}
